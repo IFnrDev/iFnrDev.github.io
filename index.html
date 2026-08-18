@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karam Khsara — Full-Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-brand">
+      <span class="nav-brand-mark">&lt;/&gt;</span>
+      <span class="nav-brand-text">Karam Khsara</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#about">من أنا</a>
+      <a href="#stack">المهارات</a>
+      <a href="#languages">اللغات</a>
+      <a href="#contact">تواصل</a>
+    </nav>
+    <a href="#contact" class="nav-cta">لنتحدث</a>
+    <button class="nav-toggle" id="navToggle" aria-label="فتح القائمة" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot-live"></span> متاح للعمل — Erbil, Kurdistan</p>
+        <h1 class="hero-title">
+          كرم خسارة
+          <span class="hero-title-sub">Full&#8209;Stack Developer</span>
+        </h1>
+        <p class="hero-desc">
+          مطوّر برمجيات عمره 21 عامًا، من سوريا ويقيم حاليًا في إقليم كردستان العراق.
+          أتخصص في تطوير الواجهات الخلفية (Back‑End) وبناء تطبيقات ويب فعّالة، موثوقة، وقابلة للتوسّع.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">تواصل معي</a>
+          <a href="https://github.com/1KGDev" target="_blank" rel="noopener" class="btn btn-ghost">GitHub ↗</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-num">10+</span><span class="stat-label">لغات برمجة</span></div>
+          <div class="stat"><span class="stat-num">3</span><span class="stat-label">لغات تواصل</span></div>
+          <div class="stat"><span class="stat-num">Back&#8209;End</span><span class="stat-label">التخصص</span></div>
+        </div>
+      </div>
+
+      <div class="hero-terminal">
+        <div class="terminal">
+          <div class="terminal-bar">
+            <span class="tdot tdot-a"></span><span class="tdot tdot-b"></span><span class="tdot tdot-c"></span>
+            <span class="terminal-title">karam@server: ~/portfolio</span>
+          </div>
+          <div class="terminal-body" id="terminalBody">
+            <p class="tline"><span class="prompt">$</span> <span id="typedCmd"></span><span class="cursor" id="typedCursor">&#9608;</span></p>
+            <pre class="tresponse" id="terminalResponse" hidden><code><span class="tk-b">{</span>
+  <span class="tk-k">"name"</span>: <span class="tk-s">"Karam Khsara"</span>,
+  <span class="tk-k">"role"</span>: <span class="tk-s">"Full-Stack Developer"</span>,
+  <span class="tk-k">"focus"</span>: <span class="tk-s">"Back-End"</span>,
+  <span class="tk-k">"location"</span>: <span class="tk-s">"Erbil, Kurdistan"</span>,
+  <span class="tk-k">"status"</span>: <span class="tk-s">"available"</span>,
+  <span class="tk-k">"learning"</span>: <span class="tk-s">"Japanese 🇯🇵"</span>
+<span class="tk-b">}</span></code></pre>
+          </div>
+        </div>
+        <div class="terminal-glow" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="section-head">
+      <span class="section-tag">01 — من أنا</span>
+      <h2 class="section-title">مطوّر شغوف ببناء الأنظمة التي تعمل بصمت وكفاءة</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-text">
+        مرحبًا! أنا كرم خسارة، مطوّر Full‑Stack سوري الجنسية، أقيم حاليًا في إقليم كردستان العراق.
+        أركّز بشكل أساسي على تطوير الواجهات الخلفية — بناء الخوادم، وتصميم الـ APIs، وإدارة قواعد البيانات ومنطق التطبيقات — 
+        مع قدرة كاملة على العمل في الواجهات الأمامية أيضًا عند الحاجة.
+        إلى جانب البرمجة، أمتلك خبرة في التصوير الفوتوغرافي وتصوير المنتجات، ما صقل لديّ حسّ التفاصيل والتواصل البصري.
+        عملت سابقًا ضمن بيئة عمل احترافية في سوريا، اكتسبت خلالها خبرة حقيقية في العمل الجماعي والمسؤولية المهنية.
+      </p>
+      <div class="about-cards">
+        <div class="mini-card">
+          <span class="mini-card-icon">🎯</span>
+          <h3>التركيز</h3>
+          <p>هندسة الخوادم، الـ APIs، وقواعد البيانات بأداء ثابت وموثوقية عالية.</p>
+        </div>
+        <div class="mini-card">
+          <span class="mini-card-icon">📷</span>
+          <h3>خارج الكود</h3>
+          <p>تصوير المنتجات والفوتوغرافيا — دقة في التفاصيل ونظرة بصرية احترافية.</p>
+        </div>
+        <div class="mini-card">
+          <span class="mini-card-icon">🌐</span>
+          <h3>قيد التعلّم</h3>
+          <p>اللغة اليابانية، ضمن رغبتي المستمرة باكتشاف لغات وثقافات جديدة.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS / STACK ===== -->
+  <section class="stack" id="stack">
+    <div class="section-head">
+      <span class="section-tag">02 — الأدوات</span>
+      <h2 class="section-title">التقنيات التي أبني بها</h2>
+    </div>
+
+    <div class="stack-grid" id="stackGrid">
+      <!-- filled by JS -->
+    </div>
+  </section>
+
+  <!-- ===== LANGUAGES ===== -->
+  <section class="languages" id="languages">
+    <div class="section-head">
+      <span class="section-tag">03 — التواصل</span>
+      <h2 class="section-title">اللغات التي أتحدثها</h2>
+    </div>
+    <div class="lang-grid" id="langGrid">
+      <!-- filled by JS -->
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="contact-card">
+      <div class="section-head section-head-light">
+        <span class="section-tag">04 — تواصل معي</span>
+        <h2 class="section-title">لنبنِ شيئًا موثوقًا معًا</h2>
+      </div>
+      <p class="contact-lead">سواء كان مشروعًا خلفيًا معقدًا أو تطبيق ويب متكامل، يسعدني مناقشة فكرتك.</p>
+
+      <div class="contact-grid">
+        <a class="contact-item" href="mailto:aurtixdev@gmail.com">
+          <span class="contact-icon">✉</span>
+          <span>
+            <span class="contact-label">البريد الإلكتروني</span>
+            <span class="contact-value">aurtixdev@gmail.com</span>
+          </span>
+        </a>
+        <a class="contact-item" href="tel:+9647505642841">
+          <span class="contact-icon">☎</span>
+          <span>
+            <span class="contact-label">الهاتف</span>
+            <span class="contact-value" dir="ltr">07505642841</span>
+          </span>
+        </a>
+        <a class="contact-item" href="https://github.com/1KGDev" target="_blank" rel="noopener">
+          <span class="contact-icon">⌥</span>
+          <span>
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value" dir="ltr">github.com/1KGDev</span>
+          </span>
+        </a>
+        <div class="contact-item contact-item-static">
+          <span class="contact-icon">◎</span>
+          <span>
+            <span class="contact-label">الموقع</span>
+            <span class="contact-value">أربيل، كردستان العراق</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Karam Khsara — Built with HTML, CSS &amp; JavaScript.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
